@@ -1,0 +1,26 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/romerflores/SaborXpress.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "RomerGodBranch"]
+	remote = origin
+	merge = refs/heads/RomerGodBranch
+[branch "cristian"]
+	remote = origin
+	merge = refs/heads/cristian
+[branch "Crisis"]
+	vscode-merge-base = origin/RomerGodBranch
+	remote = origin
+	merge = refs/heads/Crisis
+[branch "Crisis2"]
+	vscode-merge-base = origin/RomerGodBranch
+	remote = origin
+	merge = refs/heads/Crisis2
